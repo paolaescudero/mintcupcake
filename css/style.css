@@ -1,0 +1,106 @@
+
+/* MintCream: mintcream */
+/* PaleTurquoise */
+/* Celeste: #05dbe2 */
+/* MarronOscuro: #844b3a */
+/* MarronClaro: #cb8555 */
+
+.body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: mintcream;
+    color:#855351;
+    background-image: url('../images/mint+chocolate.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-x: 50vw;
+    background-position-y: -10vh;
+}
+.link-mint{
+    color: mediumturquoise;
+    text-decoration: none;
+}
+.link-mint:hover{
+    color: seagreen;
+}
+.h1{
+    font-size:72px;
+    letter-spacing:-0.0625em;
+    color:paleturquoise;
+    text-shadow: 3px 3px #7f8f85;
+    /* line-height: 0.5em; */
+}
+
+.container{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    position: relative;
+  justify-content: left;
+    align-items: center;
+}
+.title{
+    left: 15vw;
+    top: 20vh;
+    position:absolute;
+    /* border:1px solid black; */
+}
+.btn-div{
+    left: 15vw;
+    top: 42vh;
+    position:absolute;
+    /* border:1px solid black; */
+}
+.p-div{
+    left: 15vw;
+    top: 50vh;
+    width: 400px;
+    position:absolute;
+    /* border:1px solid black; */
+}
+.btn-mint{
+    background-color: #4e3c3c;
+    padding:10px 20px;
+    border: solid 1px mintcream;
+    color: mintcream;
+    font-size: 1em;
+    border-radius: 5px;
+    
+}
+
+/* CHOCOLATE MODE CLASSES */
+
+.body-chocolate{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #855351;
+    color:mintcream;
+    background-image: url('../images/choco_cup.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-x: 40vw;
+    background-position-y: -15vh;
+}
+.h1-chocolate{
+    font-size:72px;
+    letter-spacing:-0.0625em;
+    color:#4e3c3c;
+    text-shadow: 3px 3px paleturquoise;
+    /* line-height: 0.5em; */
+}
+.link-chocolate{
+    color: paleturquoise;
+    text-decoration: none;
+}
+.link-chocolate:hover{
+    color: mediumturquoise;
+}
+.btn-mint-chocolate{
+    background-color: paleturquoise;
+    padding:10px 20px;
+    border: solid 1px #855351;
+    color: #4e3c3c;
+    font-size: 1em;
+    border-radius: 5px;
+    
+}
